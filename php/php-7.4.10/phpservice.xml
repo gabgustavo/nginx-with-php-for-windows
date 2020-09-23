@@ -1,0 +1,12 @@
+<service> 
+  <id>PHP</id> 
+  <name>php</name> 
+  <description>PHP</description> 
+  <executable>C:\nginx\php\php-7.4.10\php-cgi.exe</executable> 
+  <stopexecutable>C:\nginx\php\php-7.4.10\php-stop.cmd</stopexecutable> 
+  <env name="PHPRC" value="C:\nginx\php\php-7.4.10" /> 
+  <logpath>C:\nginx\php\php-7.4.10\logs</logpath> 
+  <logmode>roll</logmode> 
+  <startargument>-b127.0.0.1:9999</startargument> 
+  <startargument>-cc:\nginx\php\php-7.4.10\php.ini</startargument> 
+</service>

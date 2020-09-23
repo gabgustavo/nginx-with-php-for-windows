@@ -1,0 +1,8 @@
+nginxservice.exe/phpservice.exe uninstall / install
+net start nginx
+net stop nginx
+NET HELP
+
+;C:\laragon\bin\php\php-7.1.12-Win32-VC14-x64
+C:\nginx\php\php-7.4.10
+

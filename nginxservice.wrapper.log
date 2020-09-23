@@ -1,0 +1,8 @@
+2020-09-22 18:09:40,117 DEBUG - Starting WinSW in service mode
+2020-09-22 18:09:40,169 INFO  - Starting c:\nginx\nginx.exe  -p c:\nginx 
+2020-09-22 18:09:40,194 INFO  - Started process 13620
+2020-09-22 18:09:40,199 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to WinSW.RollingLogAppender
+2020-09-22 18:10:09,011 DEBUG - Starting WinSW in service mode
+2020-09-22 18:10:09,064 INFO  - Starting c:\nginx\nginx.exe  -p c:\nginx 
+2020-09-22 18:10:09,087 INFO  - Started process 244
+2020-09-22 18:10:09,092 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to WinSW.RollingLogAppender
