@@ -42,3 +42,16 @@ I using MariaDB, here is the installer
 - MariaDB [https://mariadb.com/downloads/]
 
 
+### PHP extensions enabled: ###
+- extension=pdo_mysql
+- extension=fileinfo
+- extension=curl
+- extension=gettext
+- extension=imap
+- extension=gd2
+- extension=mbstring
+- extension=mysqli
+- extension=openssl
+- extension=bz2
+- extension=exif
+
