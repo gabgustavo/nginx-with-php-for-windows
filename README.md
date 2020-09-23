@@ -2,7 +2,7 @@
 <img src="https://i.ytimg.com/vi/uuutAIRFSec/maxresdefault.jpg" width="100%">
 </p>
 
-# This project contains Nginx with PHP and WinSW.NET2#
+# This project contains Nginx with PHP and WinSW.NET2 #
 - Nginx 1.18.0 Stable version - [https://nginx.org/en/download.html]
 - Php7.4.10 - [https://windows.php.net/download/]
 - WinSW v2.10.2 - [https://github.com/winsw/winsw/releases]
@@ -37,5 +37,8 @@ $ net start php
 $ net stop nginx
 $ net stop php
 ```
+
+I using MariaDB, here is the installer
+- MariaDB [https://mariadb.com/downloads/]
 
 
