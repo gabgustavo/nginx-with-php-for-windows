@@ -1,6 +1,4 @@
-<p align="center">
-<img src="https://i.ytimg.com/vi/uuutAIRFSec/maxresdefault.jpg" width="400">
-</p>
+
 # This project contains Nginx with PHP and WinSW.NET2#
 - Nginx 1.18.0 Stable version - [https://nginx.org/en/download.html][PlGa]
 - Php7.4.10 - [https://windows.php.net/download/][PlGa]
