@@ -25,3 +25,14 @@ System.Exception: Installation failure: Service with id 'PHP' already exists
 2020-09-22 17:51:30,044 INFO  - Starting C:\nginx\php\php-7.4.10\php-cgi.exe  -b127.0.0.1:9999 -cc:\nginx\php\php-7.4.10\php.ini 
 2020-09-22 17:51:30,083 INFO  - Started process 16120
 2020-09-22 17:51:30,089 DEBUG - Forwarding logs of the process System.Diagnostics.Process (php-cgi) to WinSW.RollingLogAppender
+2020-09-23 14:08:26,950 DEBUG - Starting WinSW in console mode
+2020-09-23 14:08:28,917 INFO  - Uninstalling the service with id 'PHP'
+2020-09-23 14:08:28,965 WARN  - The service with id 'PHP' is running. It may be impossible to uninstall it
+2020-09-23 14:08:29,013 DEBUG - Completed. Exit code is 0
+2020-09-23 14:08:38,253 DEBUG - Starting WinSW in console mode
+2020-09-23 14:08:39,754 INFO  - Installing the service with id 'PHP'
+2020-09-23 14:08:39,758 FATAL - Unhandled exception
+System.Exception: Installation failure: Service with id 'PHP' already exists
+   en WinSW.Program.<Run>g__Install|2_0(<>c__DisplayClass2_0& )
+   en WinSW.Program.Run(String[] argsArray, IWinSWConfiguration descriptor)
+   en WinSW.Program.Main(String[] args)

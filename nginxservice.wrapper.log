@@ -6,3 +6,8 @@
 2020-09-22 18:10:09,064 INFO  - Starting c:\nginx\nginx.exe  -p c:\nginx 
 2020-09-22 18:10:09,087 INFO  - Started process 244
 2020-09-22 18:10:09,092 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to WinSW.RollingLogAppender
+2020-09-23 13:37:16,228 INFO  - Stopping nginx
+2020-09-23 13:37:16,581 INFO  - Started process 12568
+2020-09-23 13:37:16,582 DEBUG - WaitForProcessToExit 244+12568
+2020-09-23 13:37:21,797 INFO  - Finished nginx
+2020-09-23 13:37:21,799 DEBUG - Completed. Exit code is 0
