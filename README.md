@@ -1,11 +1,11 @@
 <p align="center">
-<img src="https://i.ytimg.com/vi/uuutAIRFSec/maxresdefault.jpg" width="400">
+<img src="https://i.ytimg.com/vi/uuutAIRFSec/maxresdefault.jpg" width="100%">
 </p>
 
 # This project contains Nginx with PHP and WinSW.NET2#
-- Nginx 1.18.0 Stable version - [https://nginx.org/en/download.html][PlGa]
-- Php7.4.10 - [https://windows.php.net/download/][PlGa]
-- WinSW v2.10.2 - [https://github.com/winsw/winsw/releases][PlGa]
+- Nginx 1.18.0 Stable version - [https://nginx.org/en/download.html]
+- Php7.4.10 - [https://windows.php.net/download/]
+- WinSW v2.10.2 - [https://github.com/winsw/winsw/releases]
 
 I recommend that you this project the copy it on disc C:\
 
