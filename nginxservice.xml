@@ -3,7 +3,7 @@
   <name>nginx</name>
   <description>nginx</description>
   <executable>c:\nginx\nginx.exe</executable>
-  <logpath>c:\nginx\</logpath> 
+  <logpath>c:\nginx\logs\</logpath> 
   <logmode>roll</logmode> 
   <depend></depend>
   <startargument>-p</startargument>

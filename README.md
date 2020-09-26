@@ -55,3 +55,45 @@ I using MariaDB, here is the installer
 - extension=bz2
 - extension=exif
 
+
+### Create a new site with your own domain ###
+- Create a new block in nginx setting with your new settings, you have to access to C:\nginx\conf\sites and create another file with the your domain name. For example, 
+```sh
+ 
+server {
+	listen       80;
+    server_name  luisavila.app;
+
+    access_log  logs/luisavila.access.log;
+
+	location / {
+		root   html/luisavila.app;
+		index  index.html index.htm index.php;
+	}
+		
+	location ~ \.php$ {
+		root           html/luisavila.app;
+		fastcgi_pass   127.0.0.1:9999;
+		fastcgi_index  index.php;
+		fastcgi_param  SCRIPT_FILENAME  $document_root$fastcgi_script_name;
+		include        fastcgi_params;
+	}
+}
+
+```
+
+- Create the new domain on hosts file in the path C:\Windows\System32\drivers\etc
+ ```sh
+127.0.0.1      luisavila.app 
+ 
+```
+
+- Ready to working 
+
+
+### Create SSL Certificate ###
+```sh
+$ openssl req -x509 -nodes -days 3650 -newkey rsa:2048 -keyout /C:/nginx/ssl/localhost.key -out /C:/nginx/ssl/localhost.crt
+```
+- Remember use git to this step and response to the questions of the shell
+
