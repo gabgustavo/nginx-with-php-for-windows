@@ -43,6 +43,7 @@ I using MariaDB, here is the installer
 
 
 ### PHP extensions enabled: ###
+- extension=php_intl.dll
 - extension=pdo_mysql
 - extension=fileinfo
 - extension=curl
